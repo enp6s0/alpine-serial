@@ -9,6 +9,8 @@ profile_serialtty() {
                 lvm2 mdadm mkinitfs mtools usbutils
                 parted rsync sfdisk syslinux util-linux
                 dosfstools efibootmgr cryptsetup
+                grub-efi gnu-efi fwupd-efi efi-mkuki efitools
+                efivar efibootmgr efi-mkkeys linux-lts
                 "
         local _k _a
         apkovl="genapkovl-mkimgoverlay.sh"
